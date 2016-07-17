@@ -1,10 +1,10 @@
 {
-  "name": "react-select-combobox",
+  "name": "react-duallistbox",
   "version": "0.1.0",
   "description": "React select component with two split select boxes",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "npm run clean && webpack --colors --config webpack.production.js",
+    "build": "rimraf dist && webpack --colors --config webpack.production.js",
     "start": "DEBUG=true node server.js",
     "clean": "rimraf dist",
     "lint": "eslint src/js; true"
