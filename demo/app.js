@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import ReactDom from 'react-dom';
-import Combobox from '../src/Combobox';
+import Combobox from '../dist';
 import { keyBy, values } from 'lodash';
 import './App.scss';
 

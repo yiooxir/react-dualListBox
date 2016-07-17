@@ -4,7 +4,7 @@
   "description": "React select component with two split select boxes",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rimraf dist && webpack --colors --config webpack.production.js",
+    "build": "rimraf dist && webpack -p --colors --config webpack.production.js",
     "start": "DEBUG=true node server.js",
     "clean": "rimraf dist",
     "lint": "eslint src/js; true"
