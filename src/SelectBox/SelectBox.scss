@@ -1,0 +1,10 @@
+.select-box {
+  flex-direction: column;
+  overflow: hidden;
+  display: flex;
+  width: 40%;
+
+  & .content-wrap {
+    overflow-y: auto;
+  }
+}
